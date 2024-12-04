@@ -47,6 +47,6 @@ void main(){
             }
         }
     }
-    printf("Average of %d students is %.2f",scount,total/scount);
+    printf("Average of %d students is %.2f\n",scount,total/scount);
 
 }
