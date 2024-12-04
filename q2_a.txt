@@ -1,0 +1,8 @@
+step 1 : create an file named 'q2_b.c' 
+command: touch q2_b.c
+
+step 2: compile the c file
+command: gcc q2_b.c -o q2_output
+
+step 3: executing the compiled file
+command: ./q2_output
