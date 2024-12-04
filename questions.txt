@@ -30,4 +30,4 @@ printing n lines. Accept the number of lines(n, integer) from the user.
 Input 10 or a negative value to terminate the input process.
 
 10 . Write a C program to print all numbers between 1 and 100 which are divided
-by a 10 specified number given by the user and the remainder will be 3
+by a  specified number given by the user and the remainder will be 3
