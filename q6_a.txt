@@ -1,0 +1,8 @@
+step 1 : create an file named 'q6_b.c' 
+command: touch q6_b.c
+
+step 2: compile the c file
+command: gcc q6_b.c -o q6_output
+
+step 3: executing the compiled file
+command: ./q6_output
