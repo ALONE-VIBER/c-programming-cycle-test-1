@@ -25,13 +25,29 @@ void main(){
     scanf("%d",&ak);
 
     if(ak<0){
-        printf("%d is negative\n");
+        printf("%d is negative ");
+        if(ak%2==0){
+            printf(" even");
+        }
+        else{
+            printf(" odd");
+        }
     }
     else if(ak>0){
-        printf("%d is positive\n");
+        printf("%d is positive ");
+        if(ak%2==0){
+            printf(" even");
+        }
+        else{
+            printf(" odd");
+        }
     }
     else{
         printf("%d is zero\n");
     }
 
 }
+/* output
+ENTER AN NUMBER : 123
+123 is positive  odd
+*/
