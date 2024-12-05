@@ -27,27 +27,27 @@ void main(){
     if(ak<0){
         printf("%d is negative ");
         if(ak%2==0){
-            printf(" even");
+            printf("and even number");
         }
         else{
-            printf(" odd");
+            printf("and odd number");
         }
     }
     else if(ak>0){
         printf("%d is positive ");
         if(ak%2==0){
-            printf(" even");
+            printf("and even number");
         }
         else{
-            printf(" odd");
+            printf("and odd number");
         }
     }
     else{
-        printf("%d is zero\n");
+        printf("%d is zero\n",ak);
     }
 
 }
 /* output
 ENTER AN NUMBER : 123
-123 is positive  odd
+123 is positive  and odd number
 */
