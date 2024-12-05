@@ -2,7 +2,7 @@
 Write a C program to calculate the average mathematic marks of 5 students.
 Input 10 or a negative value to terminate the input process.
 */
-#include<stdio.h>
+/*#include<stdio.h>
 
 void main(){
 
@@ -49,4 +49,24 @@ void main(){
     }
     printf("Average of %d students is %.2f\n",scount,total/scount);
 
+}
+*/
+#include <stdio.h>
+int main() {
+    int marks, count = 0;
+    float sum = 0.0;
+    printf("Enter marks (enter 10 or a negative value to terminate):\n");
+    while (count < 5) {
+       scanf("%d", &marks);
+        if (marks == 10 || marks < 0) break;
+        sum += marks;
+        count++;
+    }
+    if (count > 0) {
+        printf("The average marks are: %.2f\n", sum / count);
+    } 
+    else {
+        printf("No valid input provided.\n");
+    }
+    return 0;
 }
